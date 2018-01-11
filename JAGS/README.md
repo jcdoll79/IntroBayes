@@ -6,7 +6,7 @@ Model parameters for both examples were estimated using Bayesian inference in R 
 
 <b>MCMC settings</b>
 
-<i>Application: Yellow Perch (Perca flavescens) relative weight long term (1992 vs 2002) comparisons</i?
+<i>Application: Yellow Perch (Perca flavescens) relative weight long term (1992 vs 2002) comparisons</i>
 
 Three concurrent MCMC chains and consisted of 4,500 total iterations (split between the three chains), thinning every 3 steps, and discarding the first 500 steps for a total of 1000 saves steps. Convergence of the MCMC chains was checked using the potential scale-reduction factor (Ȓ). The chains have converged when Ȓ is close to one. Values near 1.0 suggests the MCMC chains have converged.
 
@@ -25,7 +25,10 @@ Bayes_LVB_Reference.r:	JAGS and R code for fitting the von Bertalanffy growth mo
 
 <b>Literature Cited</b>
 
-Froese, R. and D. Pauly. 2017. FishBase. World Wide Web electronic publication. www.fishbase.org. (accessed 07/01/2017).<br><br>
-Plummer, M. 2003. JAGS: a program for analysis of Bayesian graphical models using Gibbs sampling. In Proceedings of the 3rd International Workshop on Distributed Statistical Computing (DSC 2003), 20-23 March, Vienna, Austria. ISSN 1609-395X<br><br>
-Plummer, M. 2016. Rjags: Bayesian graphical models using MCMC. R package version 4-6. https://CRAN.R-project.org/package=rjags<br><br>
-R Core Team. 2017. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.<br>
+Froese, R. and D. Pauly. 2017. FishBase. World Wide Web electronic publication. www.fishbase.org. (accessed 07/01/2017).
+
+Plummer, M. 2003. JAGS: a program for analysis of Bayesian graphical models using Gibbs sampling. In Proceedings of the 3rd International Workshop on Distributed Statistical Computing (DSC 2003), 20-23 March, Vienna, Austria. ISSN 1609-395X
+
+Plummer, M. 2016. Rjags: Bayesian graphical models using MCMC. R package version 4-6. https://CRAN.R-project.org/package=rjags
+
+R Core Team. 2017. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
