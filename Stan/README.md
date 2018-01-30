@@ -15,17 +15,17 @@ Three concurrent MCMC chains and consisted of 1000 iterations, thinning every 3 
 The von Bertalanffy model was estimated using three concurrent MCMC chains and consisted of 1000 iterations, thinning every 3 steps, and discarding the first 500 steps for a total of 167 saves steps per chain. The thinning steps were necessary to avoid auto-correlation in concurrent draws from the posterior distribution. Convergence of the MCMC chains was checked using the potential scale-reduction factor (Ȓ). The chains have converged when Ȓ is close to one. Values near 1.0 suggests the MCMC chains have converged.	
 
 <b>Table of files and descriptions</b>
-
-wr.csv: A table consisting of 1,701 observations of Yellow Perch sampled from Southern Lake Michigan. First column is Year of collection and second column is relative weights (Wr). Data supplied by the Indiana Department of Natural Resources and Ball State University.<br>
-Monroe_11.csv: A table consisting of 33 observations of Walleye sampled from Monroe Reservoir in 2011. First column is total length (TL, cm) and second column is Age (Age, years). Data supplied by the Indiana Department of Natural Resources.<br>
-priors.csv: A table consisting of 26 observations of Walleye von Bertalanffy growth model coefficients obtained from fishbase.org (Froese and Pauly 2017). Columns in order are; L-infinity, K, t0, and locality.<br>
-BayesTtest_Stan.stan:	Stan code for Bayesian t-test<br>
-Bayes_LVB_Informative_Stan.stan:	Stan code for fitting the von Bertalanffy growth model with informative prior probability distributions on L-infinity, K, and t0.<br>
-Bayes_LVB_Reference_Stan.stan:	Stan code for fitting the von Bertalanffy growth model with reference prior probability distributions on L-infinity, K, and t0.<br>
-BayesTtest_Stan.r:	R code for executing the Bayesian t-test with the BayesTtest.stan model file<br>
-Bayes_LVB_Informative_Stan.r:	R code for executing the von Bertalanffy growth model with informative prior probability distributions on L-infinity, K, and t0 with the Bayes_LVB_Informative.stan model file<br>
-Bayes_LVB_Reference_Stan.r:	R code for executing the von Bertalanffy growth model with reference prior probability distributions on L-infinity, K, and t0 with the Bayes_LVB_Reference.stan model file
-
+<ul>
+<li>wr.csv: A table consisting of 1,701 observations of Yellow Perch sampled from Southern Lake Michigan. First column is Year of collection and second column is relative weights (Wr). Data supplied by the Indiana Department of Natural Resources and Ball State University.<br></li>
+<li>Monroe_11.csv: A table consisting of 33 observations of Walleye sampled from Monroe Reservoir in 2011. First column is total length (TL, cm) and second column is Age (Age, years). Data supplied by the Indiana Department of Natural Resources.<br></li>
+<li>priors.csv: A table consisting of 26 observations of Walleye von Bertalanffy growth model coefficients obtained from fishbase.org (Froese and Pauly 2017). Columns in order are; L-infinity, K, t0, and locality.<br></li>
+<li>BayesTtest_Stan.stan:	Stan code for Bayesian t-test<br></li>
+<li>Bayes_LVB_Informative_Stan.stan:	Stan code for fitting the von Bertalanffy growth model with informative prior probability distributions on L-infinity, K, and t0.<br></li>
+<li>Bayes_LVB_Reference_Stan.stan:	Stan code for fitting the von Bertalanffy growth model with reference prior probability distributions on L-infinity, K, and t0.<br></li>
+<li>BayesTtest_Stan.r:	R code for executing the Bayesian t-test with the BayesTtest.stan model file<br></li>
+<li>Bayes_LVB_Informative_Stan.r:	R code for executing the von Bertalanffy growth model with informative prior probability distributions on L-infinity, K, and t0 with the Bayes_LVB_Informative.stan model file<br></li>
+<li>Bayes_LVB_Reference_Stan.r:	R code for executing the von Bertalanffy growth model with reference prior probability distributions on L-infinity, K, and t0 with the Bayes_LVB_Reference.stan model file</li>
+</ul>
 
 <b>Literature Cited</b>
 
