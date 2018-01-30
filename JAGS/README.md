@@ -14,7 +14,7 @@ Three concurrent MCMC chains and consisted of 4,500 total iterations (split betw
 
 The von Bertalanffy model was estimated using three concurrent MCMC chains and consisted of 7,550,000 total iterations (split between the three chains), thinning every 15 steps, and discarding the first 50,000 steps for a total of 500,000 saves steps. The thinning steps were necessary to avoid auto-correlation in concurrent draws from the posterior distribution. Convergence of the MCMC chains was checked using the potential scale-reduction factor (Ȓ). The chains have converged when Ȓ is close to one. Values near 1.0 suggests the MCMC chains have converged.	
 
-<b>Table of files and descriptions</b>
+<b>List of files and descriptions</b>
 <ul>
 <li>wr.csv: A table consisting of 1,701 observations of Yellow Perch sampled from Southern Lake Michigan. First column is Year of collection and second column is relative weights (Wr). Data supplied by the Indiana Department of Natural Resources and Ball State University.<br></li>
 <li>Monroe_11.csv: A table consisting of 33 observations of Walleye sampled from Monroe Reservoir in 2011. First column is total length (TL, cm) and second column is Age (Age, years). Data supplied by the Indiana Department of Natural Resources.<br></li>
