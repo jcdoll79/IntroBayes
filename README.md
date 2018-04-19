@@ -1,4 +1,4 @@
-# An introduction to Bayesian modeling and inference for fisheries scientists
+# Introduction to Bayesian modeling and inference for fisheries scientists
 JAGS and Stan code to accompany:
 
 Doll, J.C. and S.J. Jacquemin. <i>In press</i>. Fisheries Magazine.
